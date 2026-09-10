@@ -366,6 +366,18 @@ a:hover { color: var(--ink); }
   color: var(--accent);
   font-weight: 500;
 }
+.entry__org a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--line-3);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.18s ease;
+}
+.entry__org a:hover {
+  color: inherit;
+  text-decoration-color: var(--muted-3);
+}
 .entry__detail {
   font-size: 15px;
   color: var(--muted);
@@ -533,6 +545,18 @@ a:hover { color: var(--ink); }
   font-size: 14.5px;
   color: var(--accent);
   font-weight: 500;
+}
+.edu-entry__school a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--line-3);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.18s ease;
+}
+.edu-entry__school a:hover {
+  color: inherit;
+  text-decoration-color: var(--muted-3);
 }
 .edu-entry__place { font-size: 13.5px; color: var(--muted-3); }
 .edu-entry__detail {
