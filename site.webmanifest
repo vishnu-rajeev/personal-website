@@ -1,0 +1,14 @@
+{
+  "name": "Vishnu Rajeev",
+  "short_name": "V. Rajeev",
+  "description": "Software developer with 4+ years of experience across backend and full-stack web development.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f6f2",
+  "theme_color": "#f7f6f2",
+  "icons": [
+    { "src": "/icons/favicon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "/icons/favicon-192x192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/icons/favicon-512x512.png", "type": "image/png", "sizes": "512x512", "purpose": "any maskable" }
+  ]
+}
